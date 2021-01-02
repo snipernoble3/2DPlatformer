@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
     //when this timer is active the player isnt able to overide velocity with direction inputs
     private float controltimer=0;
     //size of character
-    Vector2 boxSize = new Vector2(1f, 1f);
+    Vector2 boxSize = new Vector2(.6f, 1.85f);
 
     private void Awake()
     {
